@@ -185,7 +185,7 @@ def Main() -> None:
             continue
 
         if SongsPerFile <= 0:
-            print("Please enter a number lower higher than 0.\n")
+            print("Please enter a number higher than 0.\n")
             continue
         
         print(f"There will be {SongsPerFile} songs in every file!")
